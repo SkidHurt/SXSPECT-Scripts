@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://i.pinimg.com/originals/92/b0/56/92b056a4478ee50bf7bbc58c184a3381.gif'); /* Updated background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent to blend with background */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent to blend with background */
+    border-radius: 10px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+    0% { background-color: #ff0000; }
+    14% { background-color: #ff7f00; }
+    28% { background-color: #ffff00; }
+    42% { background-color: #00ff00; }
+    57% { background-color: #0000ff; }
+    71% { background-color: #4b0082; }
+    85% { background-color: #8b00ff; }
+    100% { background-color: #ff0000; }
+}
+
+.script-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.script {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+.script img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.script button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ad-container {
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+}
